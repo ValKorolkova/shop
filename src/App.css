@@ -1,0 +1,71 @@
+.App {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+.cart {
+  margin-left: 100px;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-left: 100px;
+}
+.cartIcon{
+  width: 20px;
+}
+.imgClothes {
+  width: 500px;
+}
+.categoryContainer {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.categoryButtonSelected {
+  color: #EE4E4E;
+ 
+}
+.categoryButton:hover {
+  color: #FFC700;
+}
+.categoryButton {
+  cursor: pointer;
+  margin: 5px;
+  padding: 5px;
+  margin-left: 20px;
+}
+.itemQuantity {
+  margin: 8px;
+}
+.icon {
+  width: 20px;
+}
+
+h1,h2, h3,p, button {
+  font-family: "Nunito Sans", sans-serif;
+}
+button {
+  border: 1px solid #FFC700;
+  background-color: #FDFFD2;
+  padding: 4px 10px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+}
+button:hover {
+  background-color: #FFC700;
+}
+
+@media (max-width: 780px) {
+  .imgClothes {
+    width: 300px;
+  }
+  .cart {
+    margin-left: 20px;
+  }
+  .mainContainer {
+    margin-left: 20px;
+  }
+}
